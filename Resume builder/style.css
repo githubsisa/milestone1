@@ -1,0 +1,231 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  
+  }
+  .profile-picture{
+    width: 100px;
+    height: 100px;
+    margin: top 10%;
+    border-radius: 50%;
+    border: 5px solid #dd1515 
+    margin- bottom 20px;
+    object-fit: cover;
+    
+      
+    
+  }
+  
+  
+  /* Body Styles */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #676b6b;
+    margin: 10px;
+    
+  
+  }
+  
+  .resume-container {
+    display: flex;
+    height: 500px;
+    gap: 50px;
+    background-color: #b4adad;
+    width: 80%;left-column, .right-column {
+    flex: 1;
+    border: 1px solid black;
+  }
+
+    
+  }
+  .left-section {
+    background-color: #2c2c2c;
+    color:white;
+    height: auto;
+    padding: 20px;
+    width: 35%;
+    text-align: center;
+    border-right: 5px solid #e63946;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    color: #ec2b2b;
+    
+    
+  } 
+  
+  header p {
+    font-size: 1.2rem;
+    color: #0e0c0c;
+  }
+  
+  .contact-info p {
+    font-size: 1rem;
+    color: #06a6ac;
+  }
+  
+  /* Section Titles */
+  h2 {
+    font-size: 1.6rem;
+    color: #116f94;
+    border-bottom: 2px solid #2c3e50;
+    padding-bottom: 5px;
+    margin-bottom: 1rem;
+
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    color: #ce0f0fe3;body {
+      font-size: 16px;
+      line-height: 1.5;
+      border: 2px solid #ca0f0f;
+  
+
+  }
+  
+  }
+  
+  /* Skills List */
+  .skills ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .skills li {
+    background-color: #2274c7;
+    color: #1c08ca;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 1.4rem;
+    line-height: 1.5;
+  }
+  
+  /* Experience Section */
+  .job {
+    margin-bottom: 2rem;
+  }
+  
+  .job ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #0e0c0c;
+  }
+  
+  footer {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  /* Advanced styling - Hover effects & Transitions */
+  h1:hover {
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+  
+  .job h3:hover {
+    font: size 18px;
+    padding: 2%;
+    margin:20px 0 10px;
+    color: #0dbd395b;
+    box-shadow: 0 0 15px #8b333b;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  
+  /* Media Query for Responsiveness */
+  @media (max-width: 600px) {
+    .resume {
+      padding: 1.5rem;
+    }
+  
+    h1 {
+      font-size: 24px;
+      margin:10px 0;
+      margin-bottom: 30px;
+      text-align:center
+    }
+  
+  
+  
+    h3 {
+      font-size: 20px;
+      padding: 2%;
+      margin: 20px 0 10px;
+      color:black;
+      border-radius: 10px;
+      box-shadow: 0 0 150px #e63946
+      margin-top: 5%;
+      margin-bottom: 5%;
+  
+    }
+
+/* General style for the heading box */
+.heading-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: #a81010; /* Light gray background */
+  border: 2px solid #d61b1b; /* Dark border around the box */
+  border-radius: 8px; /* Rounded corners */
+  max-width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.heading-box h1 {
+  font-size: 2rem;
+  color: #333; /* Dark text color */
+  margin: 0;
+  background-color: black;
+  border: 2px solid #d61b1b;
+}
+
+
+
+
+
+  ul {
+    list-style-type: fill round;
+    padding-left: 20px;
+    margin: 10px 0;
+
+  }
+  ul li {
+    margin: 5px 0;
+  }
+
+
+  .right-section {
+    padding: 150px;
+    width: 65%;
+    background-color: #0d90c4;
+
+  }
+  button {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    box-shadow: 0 0 15px black;
+    cursor:pointer;
+    margin-top: 10px;
+    font-size:20px;
+  }
+
+  button:hover{
+    background-color: #b61b1b;
+  }
+  
